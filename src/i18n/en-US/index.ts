@@ -13,7 +13,7 @@ export default {
     placeholder: 'Type and press enter to search for a specific gif',
   },
   list: {
-    emptyState: 'No gifs around here :(',
+    emptyState: 'No gifs around here :(((',
   },
   urlCopySucess: 'URL has been copied to clipboard.',
   urlCopyFail: 'It was not possible to copy the URL to the clipboard.',

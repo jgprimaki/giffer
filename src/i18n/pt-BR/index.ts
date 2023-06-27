@@ -13,7 +13,7 @@ export default {
     placeholder: 'Digite e pressione enter para buscar um gif específico',
   },
   list: {
-    emptyState: 'Nenhum gif por aqui :(',
+    emptyState: 'Nenhum gif por aqui :(((',
   },
   urlCopySucess: 'URL copiada para a área de transferência.',
   urlCopyFail: 'Não foi possível copiar a URL para a área de transferência.',
