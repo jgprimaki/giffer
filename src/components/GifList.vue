@@ -44,8 +44,8 @@ onMounted(async () => {
   store.fetchGifs();
 });
 
-const onScroll = (e: any) => {
-  const { scrollTop, offsetHeight, scrollHeight } = e.target;
+const onScroll = (e: UIEvent) => {
+  const { scrollTop, offsetHeight, scrollHeight } = e.target as HTMLElement;
   const onBottom = scrollTop + offsetHeight >= scrollHeight;
   if (onBottom) {
     store.increaseCurrentPage();

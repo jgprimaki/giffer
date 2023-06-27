@@ -25,7 +25,7 @@ const setSearchTerm = () => (store.searchTerm = searchValue.value);
 const handleKeyPress = (event: any) => event.key === 'Enter' && setSearchTerm();
 </script>
 
-<style module>
+<style lang="scss" module>
 .search {
   @apply w-full mt-5;
   .icon {
